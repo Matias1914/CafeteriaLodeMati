@@ -1,0 +1,171 @@
+
+body {                                  /*cuerpo de la pagina*/
+  font-family: Arial, sans-serif;          /*fuente*/
+  display: flex;                            
+  flex-direction: column;
+  background-color: #FFF3E0;             /*color de fondo*/
+  color: #4E342E;                         
+}
+
+main img {              /*estilo y tamaño de img en general(no especificas)*/
+  display: block;         
+  margin: 20px auto;     
+  width: 50%;
+  max-width: 100%;  
+  object-fit: cover;     
+
+}   
+
+header{                          /*estilo de los header*/
+
+    background-color: #FFF3E0; /*colo del header*/
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {                      /*estilo SOLO H1*/
+  border-bottom: 4px solid #6F4E37;
+  display: inline-block;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+nav ul                       /*estilo general de los links*/
+{
+  list-style: none;          /*quita los detalles de las lista desordenada*/
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 560px;                   /*espacio entre cada*/
+}
+
+.seccion {                           /*donde acupra espacio visual bebidas y comida*/
+  background-color: #D7CCC8;  
+  padding: 30px;
+  margin: 20px;
+  border-radius: 8px;
+}
+
+.seccion h2{
+    background-color: #6F4E37; /*color Bebida y Comida (tipografia)*/ 
+    color: #FFF3E0;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.fila-menu{                      /*separa en 2 columnas (en este caso solo trabajo con 2)*/
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    border: 2px solid #b8967f;
+    gap: 20px;
+}
+
+.item-menu {                     /*estilo de cada item del menu (lo que engloba la imagen)*/
+  flex: 1;                      /*alineacion y separacion*/
+  text-align: center;
+  background-color: #ffffff;
+  padding: 10px;
+}
+
+.item-menu a {                  /*manda los link o txt por encima de la img y los modifica a */
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #4a2c13;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.item-menu img {                /*tamaño de imagen y estilo*/
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  border-radius: 8px;
+}
+
+footer {                               /*estilo del footer*/
+  background-color: #4E342E;
+  color: #FFF3E0;
+  padding: 20px;
+  text-align: center;
+}
+
+
+/*codigo para adaptar a pantalla movil*/
+@media (max-width: 432px) {
+  nav ul {
+    display: flex;
+    width: 100%;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .fila-menu {
+    flex-direction: column;
+  }
+
+  .item-menu img {
+    max-width: 100%;
+  }
+
+  .item-menu a {
+    font-size: 14px;
+  }
+
+  main img {
+    width: 90%;
+  }
+
+  header h1 {
+    font-size: 22px;
+  }
+
+  footer {
+    padding: 15px;
+    font-size: 13px;
+  }
+}
+
+
+/*codigo para adaptar a pantalla tablet*/
+@media (max-width: 880px) {
+  nav ul {
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+  }
+
+  .fila-menu {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .item-menu img {
+    max-width: 90%;
+  }
+
+  .item-menu a {
+    font-size: 16px;
+  }
+
+  main img {
+    width: 85%;
+  }
+
+  header h1 {
+    font-size: 26px;
+  }
+
+  .seccion {
+    margin: 15px;
+    padding: 20px;
+  }
+
+  footer {
+    font-size: 15px;
+  }
+}
