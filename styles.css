@@ -16,6 +16,7 @@ body {                                  /*cuerpo de la pagina*/
 main {
   flex-grow: 1;
 }
+
 main img {              /*estilo y tamaño de img en general(no especificas)*/
   display: block;         
   margin: 20px auto;     
@@ -24,6 +25,16 @@ main img {              /*estilo y tamaño de img en general(no especificas)*/
   object-fit: cover;     
 
 }   
+
+.nav-link{
+  color: #333;
+  text-decoration: none;
+}   
+
+.nav-link:hover {
+  color: #be12b0;
+  text-decoration: underline;
+}
 
 header{                          /*estilo de los header*/
 
