@@ -12,15 +12,31 @@
 <body>
 
     <header>
-    <h1>Cafeteria Lo de Mati</h1>
-        <nav>
-            <ul>
-                <li><a href="../index.html"class="nav-link">Inicio</a></li>
-                <li><a href="menu.html"class="nav-link">Menu</a></li>
-                <li><a href="nosotros.html"class="nav-link">Nosotros</a></li>
-                <li><a href="contacto.html"class="nav-link">Contacto</a></li>
-            </ul>
-        </nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+    <a class="navbar-brand" href="#">Cafeteria Lo de Mati</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarMenu"
+      aria-controls="navbarMenu"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarMenu">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+        <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+        <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
     </header>
 
     <main>
@@ -32,12 +48,12 @@
 
                 <div class="item-menu">
                     <a href="bebida-caliente.html"class="nav-link">Bebidas Calientes</a>
-                    <img src="../imagen/bebidas-calientes.jpg" alt="">
+                    <img src="../imagen/bebidas-calientes.jpg" alt="Menu de bebidas calientes">
                 </div>
 
                 <div class="item-menu">
                     <a href="bebida-fria.html" class="nav-link">Bebidas Frias</a>
-                    <img src="../imagen/bebida-fria.jpg" alt="">
+                    <img src="../imagen/bebida-fria.jpg" alt="Menu de bebidas frias">
                 </div>
 
             </div>
@@ -52,18 +68,43 @@
 
                 <div class="item-menu">
                     <a href="desayuno.html" class="nav-link">Desayuno</a>
-                    <img src="../imagen/several-healthy-breakfasts-on-a-tabletop-in-new-SLTIMZWXSFEYHITY2JQT2GCEZU.avif" alt="">
+                    <img src="../imagen/several-healthy-breakfasts-on-a-tabletop-in-new-SLTIMZWXSFEYHITY2JQT2GCEZU.avif" alt="Menu de Desayunos">
                 </div>
 
                 <div class="item-menu">
                     <a href="almuerzo.html" class="nav-link">Almuerzo</a>
-                    <img src="../imagen/signature-dishes.jpg" alt="">
+                    <img src="../imagen/signature-dishes.jpg" alt="Menu de Almuerzos">
                 </div>
 
             </div>
 
         </section>
     
+        <section class="galeria-grid">
+        <h2>Galería de Productos Destacados</h2>
+
+        <div class="grid-productos">
+
+        <div class="item-menu">
+        <img src="../imagen/TazadeCafeDestacados.webp" alt="Taza de café caliente">
+        </div>
+
+        <div class="item-menu">
+        <img src="../imagen/TazaMenuFrioDestacados.webp" alt="Vaso de bebida fría con hielo">
+        </div>
+
+        <div class="item-menu">
+        <img src="../imagen/DesayunoDestacado.jpg" alt="Desayunos variados en la mesa">
+        </div>
+
+        <div class="item-menu">
+        <img src="../imagen/AlmuerzoDestacado.avif" alt="Plato gourmet de almuerzo">
+        </div>
+
+        </div>
+        </section>
+
+
     </main>
 
      <footer>

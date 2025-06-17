@@ -32,13 +32,13 @@ main img {              /*estilo y tamaño de img en general(no especificas)*/
 }   
 
 .nav-link:hover {
-  color: #be12b0;
+  color: #9005ec;
   text-decoration: underline;
 }
 
 header{                          /*estilo de los header*/
 
-    background-color: #FFF3E0; /*colo del header*/
+    background-color:#4E342E;; /*colo del header*/
     padding: 10px;
     text-align: center;
     margin-bottom: 20px;
@@ -56,8 +56,7 @@ nav ul                       /*estilo general de los links*/
   list-style: none;          /*quita los detalles de las lista desordenada*/
   padding: 0;
   margin: 0;
-  display: flex;
-  gap: 560px;                   /*espacio entre cada*/
+  
 }
 
 .seccion {                           /*donde acupra espacio visual bebidas y comida*/
@@ -106,6 +105,29 @@ nav ul                       /*estilo general de los links*/
   border-radius: 8px;
 }
 
+
+.grid-productos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.galeria-grid {
+  background-color: #D7CCC8;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.grid-productos img {     
+  width: 250px;             /*controlan ancho y largo de las img*/
+  height: 250px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
 footer {                               /*estilo del footer*/
   background-color: #4E342E;
   color: #FFF3E0;
@@ -113,6 +135,36 @@ footer {                               /*estilo del footer*/
   text-align: center;
 }
 
+.navbar-collapse {
+  background-color: #e096359a; 
+  padding: 10px 20px;
+  border-radius: 0 0 8px 8px;
+}
+
+.navbar-nav .nav-link {
+  color: #020100;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:focus {
+  color: #9005ec;
+  text-decoration: underline;
+}
+
+.navbar-toggler {
+  border-color: #4E342E;
+}
+
+.navbar-toggler-icon {
+  filter: invert(35%) sepia(69%) saturate(428%) hue-rotate(192deg) brightness(90%) contrast(85%);
+}
+
+.navbar-brand {
+  color: #4E342E;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
 
 /*codigo para adaptar a pantalla movil*/
 @media (max-width: 432px) {
