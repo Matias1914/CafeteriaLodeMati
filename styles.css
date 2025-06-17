@@ -1,12 +1,21 @@
+html, body {     /*solucion para q el footer no me tape el contenido de la pagina (con boostrap si me lo tapa)*/ 
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
 
 body {                                  /*cuerpo de la pagina*/
   font-family: Arial, sans-serif;          /*fuente*/
   display: flex;                            
   flex-direction: column;
+  min-height: 100vh;
   background-color: #FFF3E0;             /*color de fondo*/
   color: #4E342E;                         
 }
 
+main {
+  flex-grow: 1;
+}
 main img {              /*estilo y tamaño de img en general(no especificas)*/
   display: block;         
   margin: 20px auto;     
