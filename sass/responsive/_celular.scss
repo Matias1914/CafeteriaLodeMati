@@ -1,0 +1,34 @@
+@media (max-width: 432px) {
+  nav ul {
+    display: flex;
+    width: 100%;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .fila-menu {
+    flex-direction: column;
+  }
+
+  .item-menu img {
+    max-width: 100%;
+  }
+
+  .item-menu a {
+    font-size: 14px;
+  }
+
+  main img {
+    width: 90%;
+  }
+
+  header h1 {
+    font-size: 22px;
+  }
+
+  footer {
+    padding: 15px;
+    font-size: 13px;
+  }
+}

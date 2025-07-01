@@ -1,0 +1,36 @@
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-collapse {
+  background-color: $color-navbar-bg;
+  padding: 10px 20px;
+  border-radius: 0 0 8px 8px;
+}
+
+.navbar-nav .nav-link {
+  color: #020100;
+  font-weight: 600;
+  transition: color 0.3s ease;
+
+  &:focus {
+    color: $color-link-hover;
+    text-decoration: underline;
+  }
+}
+
+.navbar-toggler {
+  border-color: $color-principal;
+}
+
+.navbar-toggler-icon {
+  filter: invert(35%) sepia(69%) saturate(428%) hue-rotate(192deg) brightness(90%) contrast(85%);
+}
+
+.navbar-brand {
+  color: $color-principal;
+  font-weight: bold;
+  font-size: 1.5rem;
+}

@@ -1,0 +1,8 @@
+.nav-link {
+  @extend %link-reset;
+}
+
+.nav-link:hover {
+  color: $color-link-hover;
+  text-decoration: underline;
+}

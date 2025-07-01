@@ -1,0 +1,30 @@
+// 1. Abstract
+@import "abstract/variables";
+@import "abstract/mixins";
+@import "abstract/extend";
+
+// 2. Reglas generales
+@import "reglas/reset";
+@import "reglas/tipografia";
+
+// 3. Base
+@import "estructura_base/header";
+@import "estructura_base/footer";
+@import "estructura_base/grid";
+
+// 4. Componentes
+@import "componentes/navegador";
+@import "componentes/items";
+
+// 5. Páginas
+@import "paginas/inicio";
+@import "paginas/menu";
+@import "paginas/contacto";
+@import "paginas/galeria";
+
+// 6. Responsive
+@import "responsive/celular";
+@import "responsive/tablet";
+
+
+

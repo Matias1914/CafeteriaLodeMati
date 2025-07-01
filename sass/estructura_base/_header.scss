@@ -1,0 +1,13 @@
+header {
+  background-color: $color-principal;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+
+  h1 {
+    border-bottom: 4px solid $color-secundario;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+}

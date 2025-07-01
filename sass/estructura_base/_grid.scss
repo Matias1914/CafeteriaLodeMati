@@ -1,0 +1,19 @@
+.grid-productos {
+  @include grid-responsive(200px, 15px);
+  margin-top: 20px;
+
+  img {
+    width: 250px;
+    height: 250px;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+}
+
+.galeria-grid {
+  background-color: $color-seccion;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
