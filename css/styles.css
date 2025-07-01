@@ -3,7 +3,8 @@
   color: #333;
 }
 
-html, body {
+html,
+body {
   height: 100%;
   margin: 0;
   padding: 0;
@@ -14,8 +15,8 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-color: #FFF3E0;
-  color: #4E342E;
+  background-color: #fff3e0;
+  color: #4e342e;
 }
 
 main {
@@ -36,21 +37,21 @@ main img {
 }
 
 header {
-  background-color: #4E342E;
+  background-color: #4e342e;
   padding: 10px;
   text-align: center;
   margin-bottom: 20px;
 }
 header h1 {
-  border-bottom: 4px solid #6F4E37;
+  border-bottom: 4px solid #6f4e37;
   display: inline-block;
   padding-bottom: 5px;
   margin-bottom: 10px;
 }
 
 footer {
-  background-color: #4E342E;
-  color: #FFF3E0;
+  background-color: #4e342e;
+  color: #fff3e0;
   padding: 20px;
   text-align: center;
 }
@@ -69,7 +70,7 @@ footer {
 }
 
 .galeria-grid {
-  background-color: #D7CCC8;
+  background-color: #d7ccc8;
   margin: 20px;
   padding: 20px;
   border-radius: 10px;
@@ -99,28 +100,29 @@ nav ul {
 }
 
 .navbar-toggler {
-  border-color: #4E342E;
+  border-color: #4e342e;
 }
 
 .navbar-toggler-icon {
-  filter: invert(35%) sepia(69%) saturate(428%) hue-rotate(192deg) brightness(90%) contrast(85%);
+  filter: invert(35%) sepia(69%) saturate(428%) hue-rotate(192deg)
+    brightness(90%) contrast(85%);
 }
 
 .navbar-brand {
-  color: #4E342E;
+  color: #4e342e;
   font-weight: bold;
   font-size: 1.5rem;
 }
 
 .seccion {
-  background-color: #D7CCC8;
+  background-color: #d7ccc8;
   padding: 30px;
   margin: 20px;
   border-radius: 8px;
 }
 .seccion h2 {
-  background-color: #6F4E37;
-  color: #FFF3E0;
+  background-color: #6f4e37;
+  color: #fff3e0;
   padding: 10px;
   margin-bottom: 10px;
   text-align: left;
@@ -157,11 +159,11 @@ nav ul {
 
 main.inicio {
   padding: 20px;
-  background-color: #FFF3E0;
+  background-color: #fff3e0;
   text-align: center;
 }
 main.inicio h2 {
-  color: #4E342E;
+  color: #4e342e;
   margin-bottom: 15px;
 }
 main.inicio p {
@@ -177,18 +179,18 @@ main.inicio img {
 }
 
 main.menu {
-  background-color: #FFF3E0;
+  background-color: #fff3e0;
   padding: 20px;
 }
 main.menu .seccion {
-  background-color: #D7CCC8;
+  background-color: #d7ccc8;
   padding: 30px;
   margin: 20px 0;
   border-radius: 8px;
 }
 main.menu .seccion h2 {
-  background-color: #6F4E37;
-  color: #FFF3E0;
+  background-color: #6f4e37;
+  color: #fff3e0;
   padding: 10px;
   margin-bottom: 15px;
   text-align: left;
@@ -232,13 +234,13 @@ main.menu .seccion .fila-menu .item-menu img {
 }
 
 main.contacto {
-  background-color: #FFF3E0;
+  background-color: #fff3e0;
   padding: 20px;
   max-width: 900px;
   margin: 0 auto;
 }
 main.contacto h2 {
-  color: #6F4E37;
+  color: #6f4e37;
   border-bottom: 2px solid #b8967f;
   padding-bottom: 5px;
   margin-bottom: 20px;
@@ -260,8 +262,8 @@ main.contacto textarea {
   font-size: 1rem;
 }
 main.contacto button {
-  background-color: #4E342E;
-  color: #FFF3E0;
+  background-color: #4e342e;
+  color: #fff3e0;
   border: none;
   padding: 10px;
   border-radius: 4px;
@@ -269,16 +271,16 @@ main.contacto button {
   font-weight: bold;
 }
 main.contacto button:hover {
-  background-color: #6F4E37;
+  background-color: #6f4e37;
 }
 
 main.galeria {
-  background-color: #D7CCC8;
+  background-color: #d7ccc8;
   padding: 20px;
 }
 main.galeria h2 {
   text-align: center;
-  color: #4E342E;
+  color: #4e342e;
   margin-bottom: 20px;
 }
 main.galeria .grid-galeria {

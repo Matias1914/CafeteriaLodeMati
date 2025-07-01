@@ -1,115 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/styles.css"> <!-- tenia q poner el ../ porque no era de la misma carpeta, por eso no me lo tomo -->
-</head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <!-- tenia q poner el ../ porque no era de la misma carpeta, por eso no me lo tomo -->
+  </head>
 
-
-<body>
-
+  <body>
     <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-    <a class="navbar-brand" href="#">Cafeteria Lo de Mati</a>
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-bs-toggle="collapse"
-      data-bs-target="#navbarMenu"
-      aria-controls="navbarMenu"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
-      <span class="navbar-toggler-icon"></span>
-    </button>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Cafeteria Lo de Mati</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarMenu"
+            aria-controls="navbarMenu"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-    <div class="collapse navbar-collapse" id="navbarMenu">
-      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-        <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
-        <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
-        <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
-        <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
+          <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="menu.html">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
 
     <main>
-        <section class="seccion">
+      <section class="seccion">
+        <h2>BEBIDAS</h2>
 
-            <h2>BEBIDAS</h2>
+        <div class="fila-menu">
+          <div class="item-menu">
+            <a href="bebida-caliente.html" class="nav-link"
+              >Bebidas Calientes</a
+            >
+            <img
+              src="../imagen/bebidas-calientes.jpg"
+              alt="Menu de bebidas calientes"
+            />
+          </div>
 
-            <div class="fila-menu">
+          <div class="item-menu">
+            <a href="bebida-fria.html" class="nav-link">Bebidas Frias</a>
+            <img src="../imagen/bebida-fria.jpg" alt="Menu de bebidas frias" />
+          </div>
+        </div>
+      </section>
 
-                <div class="item-menu">
-                    <a href="bebida-caliente.html"class="nav-link">Bebidas Calientes</a>
-                    <img src="../imagen/bebidas-calientes.jpg" alt="Menu de bebidas calientes">
-                </div>
+      <section class="seccion">
+        <h2>COMIDA</h2>
 
-                <div class="item-menu">
-                    <a href="bebida-fria.html" class="nav-link">Bebidas Frias</a>
-                    <img src="../imagen/bebida-fria.jpg" alt="Menu de bebidas frias">
-                </div>
+        <div class="fila-menu">
+          <div class="item-menu">
+            <a href="desayuno.html" class="nav-link">Desayuno</a>
+            <img
+              src="../imagen/several-healthy-breakfasts-on-a-tabletop-in-new-SLTIMZWXSFEYHITY2JQT2GCEZU.avif"
+              alt="Menu de Desayunos"
+            />
+          </div>
 
-            </div>
+          <div class="item-menu">
+            <a href="almuerzo.html" class="nav-link">Almuerzo</a>
+            <img src="../imagen/signature-dishes.jpg" alt="Menu de Almuerzos" />
+          </div>
+        </div>
+      </section>
 
-        </section>
-
-        <section class="seccion"> 
-
-            <h2>COMIDA</h2>
-
-            <div class="fila-menu">
-
-                <div class="item-menu">
-                    <a href="desayuno.html" class="nav-link">Desayuno</a>
-                    <img src="../imagen/several-healthy-breakfasts-on-a-tabletop-in-new-SLTIMZWXSFEYHITY2JQT2GCEZU.avif" alt="Menu de Desayunos">
-                </div>
-
-                <div class="item-menu">
-                    <a href="almuerzo.html" class="nav-link">Almuerzo</a>
-                    <img src="../imagen/signature-dishes.jpg" alt="Menu de Almuerzos">
-                </div>
-
-            </div>
-
-        </section>
-    
-        <section class="galeria-grid">
+      <section class="galeria-grid">
         <h2>Galería de Productos Destacados</h2>
 
         <div class="grid-productos">
+          <div class="item-menu">
+            <img
+              src="../imagen/TazadeCafeDestacados.webp"
+              alt="Taza de café caliente"
+            />
+          </div>
 
-        <div class="item-menu">
-        <img src="../imagen/TazadeCafeDestacados.webp" alt="Taza de café caliente">
+          <div class="item-menu">
+            <img
+              src="../imagen/TazaMenuFrioDestacados.webp"
+              alt="Vaso de bebida fría con hielo"
+            />
+          </div>
+
+          <div class="item-menu">
+            <img
+              src="../imagen/DesayunoDestacado.jpg"
+              alt="Desayunos variados en la mesa"
+            />
+          </div>
+
+          <div class="item-menu">
+            <img
+              src="../imagen/AlmuerzoDestacado.avif"
+              alt="Plato gourmet de almuerzo"
+            />
+          </div>
         </div>
-
-        <div class="item-menu">
-        <img src="../imagen/TazaMenuFrioDestacados.webp" alt="Vaso de bebida fría con hielo">
-        </div>
-
-        <div class="item-menu">
-        <img src="../imagen/DesayunoDestacado.jpg" alt="Desayunos variados en la mesa">
-        </div>
-
-        <div class="item-menu">
-        <img src="../imagen/AlmuerzoDestacado.avif" alt="Plato gourmet de almuerzo">
-        </div>
-
-        </div>
-        </section>
-
-
+      </section>
     </main>
 
-     <footer>
-        <p>&copy; 2025 Cafeteria Lo de Mati | Todos los derechos reservados</p>
+    <footer>
+      <p>&copy; 2025 Cafeteria Lo de Mati | Todos los derechos reservados</p>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
