@@ -1,0 +1,21 @@
+main.nosotros {
+  padding: 20px;
+  background-color: #fff3e0;
+
+  p {
+    width: 100%;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    color: #4e342e;
+    text-align: left;
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 20px 0;
+  }
+}

@@ -37,9 +37,9 @@
   }
 
   img {
-    width: 100%;
-    max-width: 250px;
-    height: auto;
+    width: 100%; /*controla las img del menu*/
+    max-width: 400px;
+    height: 200px;
     border-radius: 8px;
   }
 }
